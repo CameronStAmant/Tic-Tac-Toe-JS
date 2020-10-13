@@ -12,3 +12,18 @@
   justify-content: center;
   align-items: center;
 }
+
+#gameboardReadOnly {
+  width: 200px;
+  height: 200px;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 33% 33% 33%;
+}
+
+#gameboardReadOnly > div {
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
